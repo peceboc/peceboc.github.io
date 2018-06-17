@@ -191,7 +191,7 @@ img.wp-smiley,
 
 
 
-		.fb_hidden {
+		/* .fb_hidden {
 			position: absolute;
 			top: -10000px;
 			z-index: 10001
@@ -817,7 +817,7 @@ img.wp-smiley,
 			100% {
 				transform: scale(1, 1)
 			}
-		}
+		} */
 
 		#_no-clickjacking-0 {
 			opacity: 1 !important;
