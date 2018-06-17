@@ -34,8 +34,8 @@
 .hestia-title {
     margin: 20px 0px 10px;
     color: #fff;
-    font-family: "Roboto", "Times New Roman",serif !important;
-    font-weight: 700;
+    font-family: "Roboto", "Times New Roman", serif !important;
+    font-weight: 400;
 }
 
 .section {
@@ -43,7 +43,7 @@
 }
 .description p {
     line-height: 1.7;
-    font-size: 18px;
+    font-size: 20px;
 }
 .element-wrapper {
     padding: 10px;
@@ -58,6 +58,7 @@
 
 .element-wrapper img {
     width: 100%;
+    font-weight: 100;
 }
 
 .end {
@@ -72,6 +73,8 @@ h3 {
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     font-weight: 300;
+    color: #3c4858;
+    font-size: 20px;
 }
 
 .fb-comments {
