@@ -60,6 +60,9 @@
     width: 100%;
 }
 
+.end {
+    text-align: center;
+}
 
 h3 {
     font-size: 32px;
@@ -74,4 +77,8 @@ body {
 .fb-comments {
     width: 100%;
     min-width: 100%;
+}
+
+.fb-comments h3 {
+   padding: 10px 0px;
 }
