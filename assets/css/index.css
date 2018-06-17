@@ -1,0 +1,138 @@
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: #3C4858;
+    font-size: 14px;
+}
+.navbar .navbar-brand {
+    padding: 0px;
+}
+.navbar .navbar-brand img {
+    width: auto;
+    max-height: 50px;
+}
+.navbar {
+    background-color: #fafafa;
+    color: #555;
+    border: 0;
+}
+
+.navbar .container {
+    padding: 10px 0px;
+}
+
+.navbar .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #555;
+}
+
+.header-filter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(/assets/images/cropped-sunrise-1756274_1280.jpg);
+}
+.page-header {
+    color: #fafafa;
+}
+.big-title-slider-content {
+
+}
+
+.hestia-title {
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+.page-header {
+    min-height: 473px;
+    border: 0;
+}
+
+.register-panel {
+    text-align: center;
+    background-color: #fafafa;
+    color: gray;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.register-panel p {
+    font-size: 13px;
+}
+
+.register-panel h4 {
+    font-weight: 700;
+}
+
+.register-form input {
+    border: none;
+    padding: 30px 0px;
+}
+.register-form textarea {
+    border: none;
+    padding: 30px 0px;
+}
+
+.button-primary {
+    background-color: #3b5998;
+    margin: 30px 0px;
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    will-change: box-shadow,transform;
+}
+
+h2.hestia-title {
+    font-size: 37px;
+}
+
+.main {
+    margin: -60px 30px 0;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    background: #fafafa;
+}
+.hestia-features {
+    padding: 75px 0 55px;
+    text-align: center;
+}
+.description {
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.fa-wechat {
+    color: #e91e63;
+}
+
+.fa-check {
+    color: #00bcd4;
+}
+.fa-globe {
+    color: #4caf50;
+}
+
+.hestia-info {
+    text-align: center;
+}
+.hestia-info i {
+    font-size: 62px;
+}
+.hestia-info p {
+    font-size: 16px;
+    color: #999999;
+}
