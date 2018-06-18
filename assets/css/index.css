@@ -35,18 +35,22 @@ body {
     z-index: -1;
     background-position: center center;
     background-size: cover;
-    background-image: url(/assets/images/cropped-sunrise-1756274_1280.jpg);
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url(/assets/images/cropped-sunrise-1756274_1280.jpg);
+    /* background-image: url(/assets/images/cropped-sunrise-1756274_1280.jpg); */
 }
 .page-header {
     color: #fafafa;
-}
-.big-title-slider-content {
-
 }
 
 .hestia-title {
     margin: 0 0 20px;
     text-align: center;
+    font-weight: 700;
 }
 
 .text-left {
@@ -127,7 +131,7 @@ h2.hestia-title {
 }
 
 .hestia-info {
-    text-align: center;
+    /* text-align: center; */
 }
 .hestia-info i {
     font-size: 62px;
@@ -156,13 +160,26 @@ h2.hestia-title {
 }
 
 .hestia-contact {
-    background-image: url("/assets/images/contact.jpg");
-    padding: 90px 0px 70px;
+    /* background: radial-gradient(ellipse at center, #585858 0%, #232323 100%); */
+    padding: 90px 0px;
+    color: #fff;
+    text-align: left;
+}
+
+.hestia-contact-image {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.678),
+      rgba(0, 0, 0, 0.671)
+    ),
+    url(/assets/images/contact.jpg);
     background-position: center center;
     background-size: cover;
-    color: #fff;
+
 }
-.hestia-contact .container {
-    position: relative;
-    z-index: 2;
+.hestia-description h5 {
+    color: #ccc;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.6;
 }
